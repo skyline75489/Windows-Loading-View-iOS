@@ -48,10 +48,8 @@
     [path addLineToPoint:endPoint];
     
     animation.path = path.CGPath;
-    //animation.fillMode              = kCAFillModeForwards;
     animation.removedOnCompletion   = YES;
     animation.duration              = 3.0;
-    //animation.beginTime = CACurrentMediaTime() + offset;
     animation.timingFunction = [CAMediaTimingFunction functionWithControlPoints:0.0 :0.47 :1.0 :0.7];
     
     animationGroup.animations = @[animation];

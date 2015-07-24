@@ -10,6 +10,9 @@
 
 @interface ViewController : UIViewController
 
+@property (nonatomic) UIView *containerView;
+@property (nonatomic) UIView *myView;
+@property (nonatomic) NSMutableArray *arr;
 
 @end
 
